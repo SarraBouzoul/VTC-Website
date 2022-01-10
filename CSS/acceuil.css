@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+* {
+    font-family: Roboto;
+
+}
+
+body {
+    line-height: 1.5;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    justify-content: center;
+    align-items: center;
+    padding: 2.5%;
+    margin: 2.5%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+span.space {
+    margin: 0 10px;
+}
+
+.form-inline {
+    margin-left: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.form-inline label {
+    margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.form-btn,
+.btn-presentation {
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 12px #292c2f;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.form-btn:hover,
+.btn-presentation:hover {
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+@media (max-width: 800px) {
+    .form-inline input {
+        margin: 10px 0;
+    }
+
+    .form-inline {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+.comment-cela-fonctionne {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    height: 20px;
+}

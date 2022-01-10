@@ -1,0 +1,132 @@
+
+h1{
+    font-size:2em;
+    margin:.67em 0;
+}
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    font-family: Roboto, sans-serif;
+}
+h1{
+    font-weight:bold;
+    margin-bottom:10px;
+
+}
+h1{
+    font-size:38px;
+    line-height:44px;
+    margin-top:20px;
+}
+.w-row:before,.w-row:after{
+    content:" ";
+    display:table;
+}
+.w-row:after{
+    clear:both;
+}
+.w-col{
+    position:relative;
+    float:left;
+    width:100%;
+    min-height:1px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.w-col-3{
+    width:25%;
+}
+@media screen and (max-width:767px){
+    .w-row{
+        margin-left:0;
+        margin-right:0;
+    }
+    .w-col{
+        width:100%;
+        left:auto;
+        right:auto;
+    }
+}
+@media screen and (max-width:479px){
+    .w-col{
+        width:100%;
+    }
+}
+h1{
+    margin-top:15px;
+    margin-bottom:15px;
+    font-size:42px;
+    line-height:54px;
+    font-weight:400;
+}
+.divider{
+    height:1px;
+    margin-top:20px;
+    margin-bottom:15px;
+    background-color:#eee;
+}
+.style-label{
+    color:#bebebe;
+    font-size:12px;
+    line-height:20px;
+    font-weight:500;
+    text-transform:uppercase;
+}
+.tag-wrapper{
+    margin-top:35px;
+    margin-bottom:35px;
+    padding-right:5px;
+    padding-left:5px;
+}
+.row{
+    margin-bottom:50px;
+}
+.number-card-number{
+    margin-top:0px;
+    margin-bottom:0px;
+    color:#71b7e6;
+    font-weight:300;
+}
+.tagline{
+    font-size:12px;
+    font-weight:500;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+.tagline.number-card-currency{
+    color: #71b7e6;
+}
+.basic-column{
+    padding-right:5px;
+    padding-left:5px;
+}
+.number-card{
+    padding:22px 30px;
+    border-radius:8px;
+    background-color:white;
+}
+
+
+
+.number-card-divider{
+    height:1px;
+    margin-top:10px;
+    margin-bottom:14px;
+    background-color:   #9b59b6;
+}
+.number-card-dollars{
+    color:number-card-dollars;
+    font-size:16px;
+    line-height:24px;
+}
+
+@media (max-width: 991px){
+    .number-card-number{
+        font-size:30px;
+    }
+    .number-card{
+        padding-top:12px;
+        padding-bottom:16px;
+    }
+}
